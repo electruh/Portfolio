@@ -15,7 +15,9 @@ const DocumentationPage = () => {
         { name: 'Project/Business Requirements', link: requirements },
         { name: 'Project Plan', link: plan },
         { name: 'Requirements Analysis and Design', link: analysis },
+        { name: 'Wireframes/Mockups', link: analysis },
         { name: 'Status Report', link: status },
+        { name: 'System Implementation', link: status },
         // Add more documents with corresponding links
     ];
 
@@ -25,10 +27,11 @@ const DocumentationPage = () => {
             <div className="documents-grid">
                 {documents.map((document, index) => (
                     <div key={index} className="document-item">
-                        <FontAwesomeIcon icon={faFile} className="document-icon" />
-                        <a href={document.link} className="document-link" target="_blank" rel="noopener noreferrer">
-                            <p className="document-title">{document.name}</p>
-                        </a>
+                        <p className="document-title">{document.name}</p>
+                        <div className="document-link">
+                            <FontAwesomeIcon icon={faFile} className="document-icon" />
+                            <a href={document.link} target="_blank" rel="noopener noreferrer">View PDF</a>
+                        </div>
                     </div>
                 ))}
             </div>

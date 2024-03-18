@@ -5,7 +5,7 @@ import capstoneImage from '../assets/capstone.png';
 import weatherImage from '../assets/weather.png';
 import tictactoeImage from '../assets/tictactoe.png';
 import expenseImage from '../assets/expense.png';
-import firstProjectImage from '../assets/1stYearProject.png';
+import shsProject from '../assets/shsProject.png';
 import docu from './DocumentationPage';
 import {Link} from "react-router-dom";
 
@@ -68,6 +68,15 @@ const Projects = () => {
             techStack: "HTML, CSS, JavaScript, React.js, Bootstrap, OpenWeather API.",
             image: weatherImage,
             githubLink: "https://github.com/electruh/101308759_comp3123_labtest2.git",
+            hasdocu: false
+        },
+        {
+            name: "Dental Management System",
+            description: "Our team developed a software solution that revolutionizes dental clinic operations, enabling efficient appointment scheduling, patient management and service booking. " +
+                "Year developed: 2017",
+            techStack: "C#, mySql",
+            image: shsProject,
+            githubLink: "",
             hasdocu: false
         },
     ];
