@@ -14,6 +14,7 @@ const MainContent = () => {
     return (
         <main className="contentAbout">
             <div className="aboutMe">
+                <div className="aboutBorder">
                 <h1><span className="pink-text">Allanis Sumaya</span></h1>
                 <p><span className="blue-text">Welcome </span> to my corner of the web! I'm Allanis Sumaya, a 23-year-old Filipino currently studying computer programming and analysis at George Brown College. My time at George Brown has equipped me with a solid foundation in programming concepts, project management, and problem-solving.</p>
                 <p>Through my website, I'll share insights, experiences, and projects, giving you a peek into my journey as a budding computer programmer analyst.</p>
@@ -24,12 +25,12 @@ const MainContent = () => {
                     </button>
                 </a>
 
-
                 <a href={coverletter} target="_blank" className="coverletter-link">
                     <button className="coverletter">
                         <FontAwesomeIcon icon={faFile} /> Cover Letter
                     </button>
                 </a>
+                </div>
 
             </div>
             <div className="philosophy">

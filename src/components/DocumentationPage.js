@@ -8,6 +8,8 @@ import plan from '../file/W24_T23_Project_Plan_V2.0.pdf';
 import analysis from '../file/F23_T23_Requirements_Analysis_and_Design-2.pdf';
 import status from '../file/W24_T23_COMP3078_Project_Status_Report_2.pdf';
 
+
+
 const DocumentationPage = () => {
     const documents = [
         { name: 'Project Summary', link: summary },
@@ -15,9 +17,9 @@ const DocumentationPage = () => {
         { name: 'Project/Business Requirements', link: requirements },
         { name: 'Project Plan', link: plan },
         { name: 'Requirements Analysis and Design', link: analysis },
-        { name: 'Wireframes/Mockups', link: analysis },
+        { name: 'Wireframes/Mockups', link: "https://www.figma.com/file/C9nh2UmyTSwg2hi1S7L7po/Barbershop-Mobile-App?type=design&node-id=8%3A8&mode=design&t=lDoG9zzA2VMy5Fel-1" },
         { name: 'Status Report', link: status },
-        { name: 'System Implementation', link: status },
+        // { name: 'System Implementation', link:  },
         // Add more documents with corresponding links
     ];
 

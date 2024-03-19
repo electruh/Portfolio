@@ -14,7 +14,7 @@ import nodeImg from '../assets/skills/node.png';
 import springImg from '../assets/skills/spring.png';
 import gitImg from '../assets/skills/git.png';
 import githubImg from '../assets/skills/github.png';
-// Import other images as needed
+
 
 const SkillsPage = () => {
     const skillsData = [
@@ -25,7 +25,7 @@ const SkillsPage = () => {
         { name: 'Python', image: pythonImage },
         { name: 'Php', image: phpImage },
         { name: 'Android', image: androidImg },
-        { name: 'Java', image: javaImage },
+        { name: '', image: javaImage },
         { name: 'Swift', image: swiftImg },
         { name: 'C#', image: csharpImg },
         { name: '.Net', image: netImg },

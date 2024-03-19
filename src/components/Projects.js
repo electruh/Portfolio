@@ -73,7 +73,7 @@ const Projects = () => {
         {
             name: "Dental Management System",
             description: "Our team developed a software solution that revolutionizes dental clinic operations, enabling efficient appointment scheduling, patient management and service booking. " +
-                "Year developed: 2017",
+            "Year developed: 2017",
             techStack: "C#, mySql",
             image: shsProject,
             githubLink: "",
