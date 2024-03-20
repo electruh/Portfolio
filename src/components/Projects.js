@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Button } from "react-bootstrap";
 import chatAppImage from '../assets/chatApp.png';
 import capstoneImage from '../assets/capstone.png';
@@ -6,8 +6,7 @@ import weatherImage from '../assets/weather.png';
 import tictactoeImage from '../assets/tictactoe.png';
 import expenseImage from '../assets/expense.png';
 import shsProject from '../assets/shsProject.png';
-import docu from './DocumentationPage';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Project({ name, description, techStack, image, githubLink, hasdocu }) {
     return (
@@ -20,7 +19,7 @@ function Project({ name, description, techStack, image, githubLink, hasdocu }) {
                         <p className="project-description">{description}</p>
                         <p className="project-tech-stack">Tech Stack: {techStack}</p>
                         <Button href={githubLink} target="_blank" className='project-btn' >View GitHub</Button>
-                        {hasdocu && (<Link to="/documentation"  className='project-btn' >View Documentation</Link>)}
+                        {hasdocu && (<Link to="/documentation" className='project-btn' >View Documentation</Link>)}
                     </div>
                 </div>
             </div>
@@ -73,7 +72,7 @@ const Projects = () => {
         {
             name: "Dental Management System",
             description: "Our team developed a software solution that revolutionizes dental clinic operations, enabling efficient appointment scheduling, patient management and service booking. " +
-            "Year developed: 2017",
+                "Year developed: 2017",
             techStack: "C#, mySql",
             image: shsProject,
             githubLink: "",

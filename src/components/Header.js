@@ -32,11 +32,11 @@ const Header = () => {
                             Projects
                         </NavLink>
                     </li>
-                    {/*<li>*/}
-                    {/*    <NavLink to="/contact" activeClassName="active-link">*/}
-                    {/*        Contact*/}
-                    {/*    </NavLink>*/}
-                    {/*</li>*/}
+                    <li>
+                        <NavLink to="/contact" activeClassName="active-link">
+                            Contact
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
